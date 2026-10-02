@@ -15,5 +15,6 @@
   "nativeWindowsExecuted": false,
   "crossCompiledFrom": "linux/amd64",
   "authenticodeSigned": false,
-  "validationScope": "Static PE/resource, Go embed.FS exact source-asset comparison, and sensitive-string checks; not a native Windows test or complete Go backend reproducibility check."
+  "validationScope": "Static PE/resource, Go embed.FS exact source-asset comparison, and sensitive-string checks; not a native Windows test or complete Go backend reproducibility check.",
+  "recordScope": "Local pre-publication baseline before the Windows append-only log fix. Published binaries are identified by the release SHA256SUMS and the corresponding GitHub Actions run."
 }

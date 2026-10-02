@@ -1,6 +1,7 @@
 package main
 
 import (
+	"io"
 	"os"
 	"sync"
 )
@@ -18,14 +19,19 @@ type rotatingLog struct {
 
 func openRotatingLog(path string) (*rotatingLog, error) {
 	r := &rotatingLog{path: path}
-	f, e := os.OpenFile(path, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+	// Windows append-only handles cannot truncate the file when local work is
+	// cleared. Keep a writable handle and start at EOF to preserve existing logs;
+	// Write, Clear and rotation serialize access with mu.
+	f, e := os.OpenFile(path, os.O_CREATE|os.O_WRONLY, 0600)
 	if e != nil {
 		return nil, e
 	}
-	r.file = f
-	if st, e := f.Stat(); e == nil {
-		r.size = st.Size()
+	r.size, e = f.Seek(0, io.SeekEnd)
+	if e != nil {
+		f.Close()
+		return nil, e
 	}
+	r.file = f
 	if r.size >= localLogLimit {
 		if e := r.rotate(); e != nil {
 			f.Close()

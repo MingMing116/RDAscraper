@@ -19,5 +19,6 @@
   "scope": "Static local source, distributed fixtures and rebuilt Windows executable. Recognizable pattern matches reviewed in context; not a guarantee of absence of unknown secrets or an institution publication authorization.",
   "fixtures": "Seven synthetic document inputs and two synthetic OCR inputs retained without changing their bytes from the inspected source release.",
   "guide": "Updated one-page guide matches current review-list PDF / XLSX / CSV features; no Page 1 label.",
-  "publicValidationArtifacts": "Only current generic test/build/audit summaries are included. Historical reports, user-supplied document fingerprints and metadata, demo evidence, and private inspection artifacts are excluded."
+  "publicValidationArtifacts": "Only current generic test/build/audit summaries are included. Historical reports, user-supplied document fingerprints and metadata, demo evidence, and private inspection artifacts are excluded.",
+  "recordScope": "Local pre-publication baseline before the Windows append-only log fix. Published binaries are identified by the release SHA256SUMS and the corresponding GitHub Actions run."
 }

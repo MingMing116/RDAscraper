@@ -49,5 +49,6 @@
   "warning": "PDF.js Node harness logged standard-font file loader warnings; extraction, OCR and PDF rendering assertions passed.",
   "remoteGitHubActionsExecuted": false,
   "packagePowerShellExecuted": false,
-  "syntheticOCRFiles": 2
+  "syntheticOCRFiles": 2,
+  "recordScope": "Local pre-publication baseline before the Windows append-only log fix. Published binaries are identified by the release SHA256SUMS and the corresponding GitHub Actions run."
 }

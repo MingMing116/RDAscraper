@@ -1,6 +1,6 @@
 {
   "appVersion": "65.3.1",
-  "sourceFiles": 342,
+  "sourceFiles": 343,
   "scope": "Public source files; excludes this manifest and locally retained prebuilt downloads.",
   "files": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 14492,
-      "sha256": "9614cef2d4104d575cd351ae9f8e7bd093a10286e76a8d0b6f06de91a5f19c85"
+      "bytes": 14823,
+      "sha256": "72c00864d5238c787674237772852f8458d61ade1fc3c7e26c9df4069f6f8832"
     },
     {
       "path": "PRIVACY.md",
@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11598,
-      "sha256": "934100c955c8a28b0a18a8b1649f7dbd297a0789a5f6a63bc594034d8fac034c"
+      "bytes": 11688,
+      "sha256": "0a0633ea9c85335ec28649da563e6334a8acc2bad4db568f981f8e3c6d99b50d"
     },
     {
       "path": "README_KO.md",
@@ -135,8 +135,8 @@
     },
     {
       "path": "docs/PUBLISH_KO.md",
-      "bytes": 8924,
-      "sha256": "b7719315c2d5b83f8772639d2523d78ad2de517849b6ac20fa9cda1d467fcc84"
+      "bytes": 9064,
+      "sha256": "d28e1a55b4c147725f67b17858d43a6a2c03caff6c225aefed872fc6c68ba688"
     },
     {
       "path": "docs/RDAscraper_Quick_Guide.pdf",
@@ -170,8 +170,8 @@
     },
     {
       "path": "docs/VALIDATION_KO.md",
-      "bytes": 4034,
-      "sha256": "f259c05fe26f996d5a1e6a77c6205b68db0f5c40f71f911eacb0c62b721b3330"
+      "bytes": 4550,
+      "sha256": "0ea011d7b9d3045a26e4da05581666060e1a0b15953282f5e8035caaa096a87b"
     },
     {
       "path": "docs/WINDOWS_README_KO.txt",
@@ -185,18 +185,18 @@
     },
     {
       "path": "docs/validation/publication_audit.json",
-      "bytes": 1298,
-      "sha256": "20de18d43f9edf228966761209ed33e863fcd497ddb27eb0fb8451b26fb81eb5"
+      "bytes": 1491,
+      "sha256": "1e21e9c0a773c417f231f336e2d82772a85f28b8dd45f0b5e389832fbe918cc8"
     },
     {
       "path": "docs/validation/test_summary.json",
-      "bytes": 1459,
-      "sha256": "066f97542536fdf9072eb8137a8d1b97849bba219f2ead33252d6b9ddf0423ac"
+      "bytes": 1652,
+      "sha256": "a7595390af4538d829ba5f25b0d03c0f9d68519d8e153d16622c435f4357ac9e"
     },
     {
       "path": "docs/validation/windows_build_validation.json",
-      "bytes": 862,
-      "sha256": "c0ad67c21b8a41d2b4450d9c75fec73792ca6adbaa4c04012e6d5f2d64c8220c"
+      "bytes": 1055,
+      "sha256": "cbe6460a30324d125dfe28bfa9b9855f3351a17b3998f647026c651b93c2d150"
     },
     {
       "path": "export_regression_test.go",
@@ -215,8 +215,13 @@
     },
     {
       "path": "local_log.go",
-      "bytes": 1920,
-      "sha256": "9bd387efb215e0aecfd40834d22a75272b54b5c283666377c0cc24f7aa053747"
+      "bytes": 2149,
+      "sha256": "06c06c16e4019b72f5521190141a1c23cc61b00bf438e92d2a8e29f1965aff4c"
+    },
+    {
+      "path": "local_log_test.go",
+      "bytes": 1797,
+      "sha256": "ea4cc9d584b3fc2f37bfeb1d06b7b4b5c900c9a056c43f15679222165895f0fd"
     },
     {
       "path": "main.go",

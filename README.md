@@ -101,7 +101,7 @@ go build -buildvcs=false -trimpath -ldflags '-s -w -H=windowsgui' -o dist/RDAscr
 
 Windows 산출물은 Linux 검사도 통과한 실행에서만 업로드합니다. `release.yml`은 **수동 실행**으로 같은 검사를 수행합니다. 일반 검사와 수동 후보 빌드는 읽기 권한으로 실행합니다. main에 `[publish-release]`가 포함된 커밋을 푸시하면 Linux·Windows 검사를 모두 통과한 뒤 해당 실행의 Windows ZIP과 SHA-256만 GitHub Release에 게시합니다. 이 게시 작업에만 `contents: write`와 `actions: read` 권한을 부여합니다. 기존 Release는 덮어쓰지 않습니다. 웹사이트는 배포하지 않습니다. 다른 검사 작업은 저장소 읽기로 제한하고 외부 Actions는 확인한 커밋 SHA에 고정했습니다. npm·Go·Actions 변경은 Dependabot이 주기적으로 제안합니다. [GitHub Actions 보안 지침](https://docs.github.com/en/actions/reference/security/secure-use)
 
-이 workflow는 실행 가능한 설정으로 준비했으며 이 패키지를 만드는 과정에서 원격 GitHub Actions를 실행한 것은 아닙니다. 자동 시험 통과와 사용자 PC의 실제 실행 확인은 구분합니다. 로컬에서 수행한 시험, 보안 회귀시험 범위와 Windows 실기기 확인 여부는 [검증 기록](docs/VALIDATION_KO.md)에 있습니다.
+각 커밋의 실제 자동 검사 결과는 [GitHub Actions](https://github.com/MingMing116/RDAscraper/actions)에서 확인할 수 있습니다. Release ZIP은 Linux·Windows 검사와 실제 Chromium 통합시험을 통과한 실행의 산출물입니다. 자동 시험의 뉴스 응답은 합성 자료이며, 사용자 PC의 실제 공개 뉴스 검색 확인과 구분합니다. 제작환경의 사전 시험 범위는 [검증 기록](docs/VALIDATION_KO.md)에 있습니다.
 
 `.github/workflows/live-windows.yml`의 **Windows live news verification**은 별도 수동 실행입니다. Windows EXE와 설치된 Edge로 실제 공개 뉴스 검색·원문 확인·검수 목록 PDF 저장을 검사하고 성공 또는 실패 증거를 산출물에 남깁니다. 일반 CI의 합성 뉴스 시험과 목적이 다르며, 이 workflow도 아직 원격 실행하지 않았습니다.
 
