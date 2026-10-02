@@ -1,0 +1,19 @@
+{
+  "version": "65.3.1",
+  "fileVersion": "65.3.1.0",
+  "filename": "RDAscraper.exe",
+  "bytes": 60867072,
+  "sha256": "4bd6b5168b6e1a68cb8776d13ade070b4a1dcdb0915727b58b76bc1b42078a20",
+  "format": "PE32+ AMD64 Windows GUI",
+  "goVersion": "go1.27.1",
+  "embeddedWebFileCount": 251,
+  "embeddedWebFileByteMatches": 251,
+  "currentUIAndPDFWriterEmbedded": true,
+  "originalWorkbookProvenanceRemoved": true,
+  "staticSensitiveStringScan": "No actual secret/internal endpoint/operator contact found among inspected candidates",
+  "executableNotRunDuringInspection": true,
+  "nativeWindowsExecuted": false,
+  "crossCompiledFrom": "linux/amd64",
+  "authenticodeSigned": false,
+  "validationScope": "Static PE/resource, Go embed.FS exact source-asset comparison, and sensitive-string checks; not a native Windows test or complete Go backend reproducibility check."
+}

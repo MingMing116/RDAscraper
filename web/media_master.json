@@ -1,0 +1,3812 @@
+{
+  "version": "v5",
+  "source": "언론사별 매체 분류·점수 기준표",
+  "default_scores": {
+    "기타인터넷신문": 0.1
+  },
+  "count": 398,
+  "fields": [
+    "media",
+    "aliases",
+    "domains",
+    "category",
+    "score",
+    "note"
+  ],
+  "entries": [
+    {
+      "row": 3,
+      "media": "외신브리핑",
+      "aliases": [],
+      "category": "외신브리핑",
+      "score": 25.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 4,
+      "media": "농식품부 브리핑",
+      "aliases": [],
+      "category": "농식품부 브리핑",
+      "score": 15.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 5,
+      "media": "전문지 브리핑",
+      "aliases": [],
+      "category": "전문지 브리핑",
+      "score": 10.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 6,
+      "media": "KBS",
+      "aliases": [
+        "KBS 뉴스",
+        "KBS뉴스"
+      ],
+      "category": "지상파(중앙)TV",
+      "score": 8.0,
+      "note": "",
+      "domains": [
+        "kbs.co.kr"
+      ]
+    },
+    {
+      "row": 7,
+      "media": "MBC",
+      "aliases": [
+        "MBC 뉴스",
+        "MBC뉴스"
+      ],
+      "category": "지상파(중앙)TV",
+      "score": 8.0,
+      "note": "",
+      "domains": [
+        "imbc.com",
+        "mbc.co.kr"
+      ]
+    },
+    {
+      "row": 8,
+      "media": "SBS",
+      "aliases": [
+        "SBS 뉴스",
+        "SBS뉴스"
+      ],
+      "category": "지상파(중앙)TV",
+      "score": 8.0,
+      "note": "",
+      "domains": [
+        "sbs.co.kr"
+      ]
+    },
+    {
+      "row": 9,
+      "media": "EBS",
+      "aliases": [],
+      "category": "지상파(중앙)TV",
+      "score": 8.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 10,
+      "media": "강릉KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 11,
+      "media": "광주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 12,
+      "media": "대구KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 13,
+      "media": "대전KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 14,
+      "media": "목포KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 15,
+      "media": "부산KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 16,
+      "media": "순천KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 17,
+      "media": "안동KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 18,
+      "media": "울산KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 19,
+      "media": "원주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 20,
+      "media": "전주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 21,
+      "media": "진주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 22,
+      "media": "제주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 23,
+      "media": "창원KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 24,
+      "media": "청주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 25,
+      "media": "춘천KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 26,
+      "media": "충주KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 27,
+      "media": "포항KBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 28,
+      "media": "MBC강원영동",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 29,
+      "media": "광주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 30,
+      "media": "대구MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 31,
+      "media": "대전MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 32,
+      "media": "창원MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 33,
+      "media": "목포MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 34,
+      "media": "부산MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 35,
+      "media": "안동MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 36,
+      "media": "여수MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 37,
+      "media": "울산MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 38,
+      "media": "원주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 39,
+      "media": "전주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 40,
+      "media": "제주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 41,
+      "media": "MBC경남",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 42,
+      "media": "청주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 43,
+      "media": "춘천MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 44,
+      "media": "충주MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 45,
+      "media": "포항MBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 46,
+      "media": "강원GTV",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 47,
+      "media": "광주KBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 48,
+      "media": "대구TBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 49,
+      "media": "대전TJB",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 50,
+      "media": "부산KNN",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 51,
+      "media": "울산UBC",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 52,
+      "media": "전주JTV",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 53,
+      "media": "청주CJB",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 54,
+      "media": "제주JIBS",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 55,
+      "media": "OBS경인TV",
+      "aliases": [],
+      "category": "지상파(지방) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 56,
+      "media": "JTBC",
+      "aliases": [],
+      "category": "종합편성채널 TV",
+      "score": 4.0,
+      "note": "",
+      "domains": [
+        "jtbc.co.kr"
+      ]
+    },
+    {
+      "row": 57,
+      "media": "MBN 매일방송",
+      "aliases": [],
+      "category": "종합편성채널 TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 58,
+      "media": "채널A",
+      "aliases": [],
+      "category": "종합편성채널 TV",
+      "score": 4.0,
+      "note": "",
+      "domains": [
+        "ichannela.com"
+      ]
+    },
+    {
+      "row": 59,
+      "media": "TV조선",
+      "aliases": [
+        "티비조선"
+      ],
+      "category": "종합편성채널 TV",
+      "score": 4.0,
+      "note": "",
+      "domains": [
+        "chosun.com"
+      ]
+    },
+    {
+      "row": 60,
+      "media": "YTN",
+      "aliases": [
+        "와이티엔"
+      ],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": [
+        "ytn.co.kr"
+      ]
+    },
+    {
+      "row": 61,
+      "media": "연합뉴스TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": [
+        "yonhapnewstv.co.kr"
+      ]
+    },
+    {
+      "row": 62,
+      "media": "SBS CNBC",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 63,
+      "media": "Tomato TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 64,
+      "media": "아시아경제TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 65,
+      "media": "한국경제TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 66,
+      "media": "MTN",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 67,
+      "media": "M-Money",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 68,
+      "media": "서울경제TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 69,
+      "media": "이데일리TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 70,
+      "media": "C TIME",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 71,
+      "media": "YTN 웨더&라이프",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 72,
+      "media": "Bloomberg TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 73,
+      "media": "CNN International",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 74,
+      "media": "CCTV News",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 75,
+      "media": "BBC World News",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 76,
+      "media": "CNN US",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 77,
+      "media": "TV5Monde",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 78,
+      "media": "CCTV4",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 79,
+      "media": "OUN",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 80,
+      "media": "국회방송",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 81,
+      "media": "KTV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 82,
+      "media": "복지TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 83,
+      "media": "KBS W",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 84,
+      "media": "NGC",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 85,
+      "media": "YTN 사이언스",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 86,
+      "media": "History HD",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 87,
+      "media": "Natgeo Wild HD",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 88,
+      "media": "BBC earth",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 89,
+      "media": "Arte TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 90,
+      "media": "JTBC3 FOXSPORTS",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 91,
+      "media": "부메랑",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 92,
+      "media": "WBS원음방송",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 93,
+      "media": "쿠키건강TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 94,
+      "media": "FTN",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 95,
+      "media": "MBC NET",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 96,
+      "media": "한국직업방송",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 97,
+      "media": "소상공인방송",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 98,
+      "media": "tbs TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 99,
+      "media": "아리랑TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 100,
+      "media": "NHK World Premium",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 101,
+      "media": "DOGTV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 102,
+      "media": "MBC QueeN",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 103,
+      "media": "On style",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 104,
+      "media": "홈스토리",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 105,
+      "media": "O tvN",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 106,
+      "media": "Food TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 107,
+      "media": "올리브",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 108,
+      "media": "헬스메디TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 109,
+      "media": "OBSW",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 110,
+      "media": "동아TV",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 111,
+      "media": "Fashion N",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 112,
+      "media": "Ch.View",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 113,
+      "media": "Life N",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 114,
+      "media": "Fox life",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 115,
+      "media": "Gtv",
+      "aliases": [],
+      "category": "케이블(중앙) TV",
+      "score": 4.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 116,
+      "media": "KBS 라디오",
+      "aliases": [],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 117,
+      "media": "MBC 라디오",
+      "aliases": [],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 118,
+      "media": "SBS 라디오",
+      "aliases": [],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 119,
+      "media": "EBS 라디오",
+      "aliases": [],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 120,
+      "media": "극동방송 라디오",
+      "aliases": [],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 121,
+      "media": "CBS 라디오",
+      "aliases": [
+        "기독교방송"
+      ],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "기독교방송",
+      "domains": []
+    },
+    {
+      "row": 122,
+      "media": "PBC 라디오",
+      "aliases": [
+        "평화방송"
+      ],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "평화방송",
+      "domains": []
+    },
+    {
+      "row": 123,
+      "media": "BBS 라디오",
+      "aliases": [
+        "불교방송"
+      ],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "불교방송",
+      "domains": []
+    },
+    {
+      "row": 124,
+      "media": "TBN 라디오",
+      "aliases": [
+        "한국교통방송"
+      ],
+      "category": "중앙 라디오 (전국권역)",
+      "score": 3.0,
+      "note": "한국교통방송",
+      "domains": []
+    },
+    {
+      "row": 125,
+      "media": "tbs",
+      "aliases": [
+        "서울교통방송"
+      ],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "서울교통방송",
+      "domains": []
+    },
+    {
+      "row": 126,
+      "media": "YTN",
+      "aliases": [
+        "와이티엔"
+      ],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "ytn.co.kr"
+      ]
+    },
+    {
+      "row": 127,
+      "media": "원음방송",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 128,
+      "media": "국악방송",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 129,
+      "media": "아리랑국제방송",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 130,
+      "media": "강릉KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 131,
+      "media": "대전KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 132,
+      "media": "순천KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 133,
+      "media": "원주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 134,
+      "media": "제주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 135,
+      "media": "춘천KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 136,
+      "media": "광주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 137,
+      "media": "목포KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 138,
+      "media": "안동KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 139,
+      "media": "전주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 140,
+      "media": "창원KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 141,
+      "media": "충주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 142,
+      "media": "대구KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 143,
+      "media": "부산KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 144,
+      "media": "울산KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 145,
+      "media": "진주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 146,
+      "media": "청주KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 147,
+      "media": "포항KBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 148,
+      "media": "부산MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 149,
+      "media": "대구MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 150,
+      "media": "광주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 151,
+      "media": "대전MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 152,
+      "media": "전주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 153,
+      "media": "마산MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 154,
+      "media": "춘천MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 155,
+      "media": "청주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 156,
+      "media": "제주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 157,
+      "media": "울산MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 158,
+      "media": "강릉MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 159,
+      "media": "진주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 160,
+      "media": "목포MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 161,
+      "media": "여수MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 162,
+      "media": "안동MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 163,
+      "media": "원주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 164,
+      "media": "충주MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 165,
+      "media": "삼척MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 166,
+      "media": "포항MBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 167,
+      "media": "경인방송",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 168,
+      "media": "경기방송",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 169,
+      "media": "강원GTV",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 170,
+      "media": "광주KBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 171,
+      "media": "대구TBC",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 172,
+      "media": "대전TJB",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 173,
+      "media": "부산KNN",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 174,
+      "media": "울산ubc",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 175,
+      "media": "전주JTV",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 176,
+      "media": "청주CJB",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 177,
+      "media": "제주JIBS",
+      "aliases": [],
+      "category": "지방 라디오 (지역권역)",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 178,
+      "media": "경향신문",
+      "aliases": [
+        "경향"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "khan.co.kr"
+      ]
+    },
+    {
+      "row": 179,
+      "media": "국민일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "kmib.co.kr"
+      ]
+    },
+    {
+      "row": 180,
+      "media": "내일신문",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 181,
+      "media": "동아일보",
+      "aliases": [
+        "동아닷컴"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "donga.com"
+      ]
+    },
+    {
+      "row": 182,
+      "media": "문화일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "munhwa.com"
+      ]
+    },
+    {
+      "row": 183,
+      "media": "서울신문",
+      "aliases": [
+        "서울PN",
+        "서울Pn",
+        "서울신문사"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "seoul.co.kr"
+      ]
+    },
+    {
+      "row": 184,
+      "media": "세계일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "segye.com"
+      ]
+    },
+    {
+      "row": 185,
+      "media": "아시아투데이",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 186,
+      "media": "조선일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "chosun.com"
+      ]
+    },
+    {
+      "row": 187,
+      "media": "중앙일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "joongang.co.kr",
+        "joins.com"
+      ]
+    },
+    {
+      "row": 188,
+      "media": "한겨레",
+      "aliases": [
+        "한겨레신문"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "hani.co.kr"
+      ]
+    },
+    {
+      "row": 189,
+      "media": "한국일보",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "hankookilbo.com"
+      ]
+    },
+    {
+      "row": 190,
+      "media": "매일경제",
+      "aliases": [
+        "매경"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "mk.co.kr"
+      ]
+    },
+    {
+      "row": 191,
+      "media": "머니투데이",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "mt.co.kr"
+      ]
+    },
+    {
+      "row": 192,
+      "media": "서울경제",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "sedaily.com"
+      ]
+    },
+    {
+      "row": 193,
+      "media": "아시아경제",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "asiae.co.kr"
+      ]
+    },
+    {
+      "row": 194,
+      "media": "아주경제",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "ajunews.com"
+      ]
+    },
+    {
+      "row": 195,
+      "media": "이데일리",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "edaily.co.kr"
+      ]
+    },
+    {
+      "row": 196,
+      "media": "이투데이",
+      "aliases": [],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "etoday.co.kr"
+      ]
+    },
+    {
+      "row": 197,
+      "media": "파이낸셜뉴스",
+      "aliases": [
+        "fnnews",
+        "파이낸셜"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "fnnews.com"
+      ]
+    },
+    {
+      "row": 198,
+      "media": "한국경제",
+      "aliases": [
+        "한경"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "hankyung.com"
+      ]
+    },
+    {
+      "row": 199,
+      "media": "헤럴드경제",
+      "aliases": [
+        "헤럴드"
+      ],
+      "category": "중앙일간지(경제지)",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "heraldcorp.com"
+      ]
+    },
+    {
+      "row": 200,
+      "media": "연합뉴스",
+      "aliases": [
+        "Yonhap",
+        "연합",
+        "연합뉴스TV"
+      ],
+      "category": "통신사",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "yna.co.kr"
+      ]
+    },
+    {
+      "row": 201,
+      "media": "뉴시스",
+      "aliases": [
+        "NEWSIS"
+      ],
+      "category": "통신사",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "newsis.com"
+      ]
+    },
+    {
+      "row": 202,
+      "media": "뉴스1",
+      "aliases": [
+        "News1",
+        "뉴스1(다음)",
+        "뉴스1코리아"
+      ],
+      "category": "통신사",
+      "score": 5.0,
+      "note": "",
+      "domains": [
+        "news1.kr",
+        "news1.co.kr"
+      ]
+    },
+    {
+      "row": 203,
+      "media": "아시아뉴스통신",
+      "aliases": [],
+      "category": "통신사",
+      "score": 5.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 204,
+      "media": "뉴스토마토",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 205,
+      "media": "메트로경제",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 206,
+      "media": "미디어펜",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 207,
+      "media": "브릿지경제",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 208,
+      "media": "데일리안",
+      "aliases": [
+        "DAILIAN"
+      ],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "dailian.co.kr"
+      ]
+    },
+    {
+      "row": 209,
+      "media": "뉴스핌",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "newspim.com"
+      ]
+    },
+    {
+      "row": 210,
+      "media": "디지털타임스",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 211,
+      "media": "매일노동뉴스",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 212,
+      "media": "매일일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 213,
+      "media": "매일환경일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 214,
+      "media": "서울일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 215,
+      "media": "신아일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 216,
+      "media": "아시아일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 217,
+      "media": "아시아타임즈",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 218,
+      "media": "아시아투데이 해외판",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 219,
+      "media": "일간투데이",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 220,
+      "media": "전자신문",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "etnews.com"
+      ]
+    },
+    {
+      "row": 221,
+      "media": "조선비즈",
+      "aliases": [
+        "조선Biz"
+      ],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "biz.chosun.com"
+      ]
+    },
+    {
+      "row": 222,
+      "media": "천지일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "newscj.com"
+      ]
+    },
+    {
+      "row": 223,
+      "media": "환경일보",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "hkbs.co.kr"
+      ]
+    },
+    {
+      "row": 224,
+      "media": "건설경제",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 225,
+      "media": "아주경제 중국어판",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 226,
+      "media": "에너지경제",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": [
+        "ekn.kr"
+      ]
+    },
+    {
+      "row": 227,
+      "media": "한국스포츠경제",
+      "aliases": [],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 228,
+      "media": "KOREA JOONGANG",
+      "aliases": [
+        "코리아중앙데일리"
+      ],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "코리아중앙데일리",
+      "domains": []
+    },
+    {
+      "row": 229,
+      "media": "The Korea Herald",
+      "aliases": [
+        "코리아헤럴드"
+      ],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "코리아헤럴드",
+      "domains": []
+    },
+    {
+      "row": 230,
+      "media": "The KOREA TIMES",
+      "aliases": [
+        "코리아타임즈"
+      ],
+      "category": "기타일간지",
+      "score": 2.0,
+      "note": "코리아타임즈",
+      "domains": []
+    },
+    {
+      "row": 231,
+      "media": "스포츠경향",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 232,
+      "media": "스포츠동아",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 233,
+      "media": "스포츠서울",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 234,
+      "media": "데일리스포츠",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 235,
+      "media": "스포츠조선",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 236,
+      "media": "일간스포츠",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 237,
+      "media": "데일리 스포츠한국",
+      "aliases": [],
+      "category": "스포츠신문",
+      "score": 2.0,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 238,
+      "media": "강원도민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 239,
+      "media": "강원일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 240,
+      "media": "수도일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 241,
+      "media": "경기매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 242,
+      "media": "경기신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 243,
+      "media": "경기일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 244,
+      "media": "경인일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 245,
+      "media": "경인종합일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 246,
+      "media": "수도권일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 247,
+      "media": "수원일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 248,
+      "media": "중부일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 249,
+      "media": "경기도정신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 250,
+      "media": "도민일보",
+      "aliases": [
+        "구 경양일보"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "구 경양일보",
+      "domains": []
+    },
+    {
+      "row": 251,
+      "media": "현대일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 252,
+      "media": "경기도민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 253,
+      "media": "경도신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 254,
+      "media": "기호일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 255,
+      "media": "우리일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 256,
+      "media": "인천일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 257,
+      "media": "일간경기",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 258,
+      "media": "내외일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 259,
+      "media": "산경일보",
+      "aliases": [
+        "구 전국우리일보"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "구 전국우리일보",
+      "domains": []
+    },
+    {
+      "row": 260,
+      "media": "서울매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 261,
+      "media": "선경일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 262,
+      "media": "시민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 263,
+      "media": "새한일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 264,
+      "media": "한성일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 265,
+      "media": "금강일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 266,
+      "media": "대전일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 267,
+      "media": "대전투데이",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 268,
+      "media": "중도일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 269,
+      "media": "중앙매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 270,
+      "media": "충남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 271,
+      "media": "충청신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 272,
+      "media": "충청투데이",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 273,
+      "media": "동양일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 274,
+      "media": "중부매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 275,
+      "media": "충북일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 276,
+      "media": "충청매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 277,
+      "media": "충청일보, 충청타임즈",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 278,
+      "media": "충청타임즈",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 279,
+      "media": "세종매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 280,
+      "media": "대구광역일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 281,
+      "media": "대구신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 282,
+      "media": "GIGA영남매일",
+      "aliases": [
+        "구 대구영남매일"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "구 대구영남매일",
+      "domains": []
+    },
+    {
+      "row": 283,
+      "media": "대구일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 284,
+      "media": "매일신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 285,
+      "media": "영남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 286,
+      "media": "국제신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 287,
+      "media": "부산일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 288,
+      "media": "부산파이낸셜뉴스",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 289,
+      "media": "일간리더스경제신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 290,
+      "media": "경상일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 291,
+      "media": "울산광역매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 292,
+      "media": "울산매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 293,
+      "media": "울산신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 294,
+      "media": "울산제일일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 295,
+      "media": "한남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 296,
+      "media": "경남매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 297,
+      "media": "경남도민신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 298,
+      "media": "경남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 299,
+      "media": "일간뉴스경남",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 300,
+      "media": "경남도민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 301,
+      "media": "경남신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 302,
+      "media": "경남연합일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 303,
+      "media": "창원일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 304,
+      "media": "경북신문",
+      "aliases": [
+        "구 경도일보"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "구 경도일보",
+      "domains": []
+    },
+    {
+      "row": 305,
+      "media": "경북연합일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 306,
+      "media": "경상투데이",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 307,
+      "media": "경안일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 308,
+      "media": "경북도민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 309,
+      "media": "경북매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 310,
+      "media": "경북일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 311,
+      "media": "경상매일신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 312,
+      "media": "대경일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 313,
+      "media": "일간경북신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 314,
+      "media": "The대한일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 315,
+      "media": "광남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 316,
+      "media": "광전일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 317,
+      "media": "광주매일신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 318,
+      "media": "광주일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 319,
+      "media": "광주타임즈",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 320,
+      "media": "남도일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 321,
+      "media": "남도투데이",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 322,
+      "media": "무등일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 323,
+      "media": "전남도민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 324,
+      "media": "전남매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 325,
+      "media": "전남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 326,
+      "media": "조간호남일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 327,
+      "media": "호남매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 328,
+      "media": "호남신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 329,
+      "media": "광주드림",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 330,
+      "media": "교차로신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 331,
+      "media": "전광투데이",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 332,
+      "media": "새만금일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 333,
+      "media": "새전북신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 334,
+      "media": "전북타임스",
+      "aliases": [
+        "구 전북일간신문"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "구 전북일간신문",
+      "domains": []
+    },
+    {
+      "row": 335,
+      "media": "전라매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 336,
+      "media": "전라일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 337,
+      "media": "전민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 338,
+      "media": "전북도민일보",
+      "aliases": [
+        "전북도민"
+      ],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "domin.co.kr"
+      ]
+    },
+    {
+      "row": 339,
+      "media": "전북매일신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 340,
+      "media": "전북연합신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 341,
+      "media": "전북일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 342,
+      "media": "전북중앙신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 343,
+      "media": "전주매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 344,
+      "media": "전주일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 345,
+      "media": "전북제일신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 346,
+      "media": "제민일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 347,
+      "media": "제주매일",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 348,
+      "media": "제주신문",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 349,
+      "media": "제주일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 350,
+      "media": "한라일보",
+      "aliases": [],
+      "category": "지방일간지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 351,
+      "media": "농기자재신문",
+      "aliases": [
+        "구 농자재신문",
+        "농자재신문"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "구 농자재신문",
+      "domains": [
+        "newsam.co.kr"
+      ]
+    },
+    {
+      "row": 352,
+      "media": "농민신문",
+      "aliases": [
+        "Nongmin"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "nongmin.com"
+      ]
+    },
+    {
+      "row": 353,
+      "media": "농수축산신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "aflnews.co.kr"
+      ]
+    },
+    {
+      "row": 354,
+      "media": "농촌경제신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 355,
+      "media": "농업정보신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 356,
+      "media": "농업축산신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 357,
+      "media": "농축유통신문",
+      "aliases": [
+        "농축유통"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "amnews.co.kr"
+      ]
+    },
+    {
+      "row": 358,
+      "media": "농축환경신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 359,
+      "media": "라이브팜뉴스",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 360,
+      "media": "버섯신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 361,
+      "media": "보건신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 362,
+      "media": "식품외식경제",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 363,
+      "media": "식품음료신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 364,
+      "media": "양돈타임스",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 365,
+      "media": "원예산업신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 366,
+      "media": "전업농신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 367,
+      "media": "주간식품저널",
+      "aliases": [
+        "식품저널",
+        "푸드뉴스"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "foodnews.co.kr"
+      ]
+    },
+    {
+      "row": 368,
+      "media": "축산경제",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 369,
+      "media": "축산신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "chuksannews.co.kr"
+      ]
+    },
+    {
+      "row": 370,
+      "media": "한국4-H신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 371,
+      "media": "한국농어민신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "agrinet.co.kr"
+      ]
+    },
+    {
+      "row": 372,
+      "media": "한국농업신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 373,
+      "media": "한국농정",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 374,
+      "media": "영농자재신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 375,
+      "media": "한국영농신문",
+      "aliases": [
+        "영농신문"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "youngnong.co.kr"
+      ]
+    },
+    {
+      "row": 376,
+      "media": "한국임업신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 377,
+      "media": "농업인신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "nongupin.co.kr"
+      ]
+    },
+    {
+      "row": 378,
+      "media": "농촌여성신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 379,
+      "media": "여성농업인신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 380,
+      "media": "한국농촌경제신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 381,
+      "media": "농업기술회보",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 382,
+      "media": "한국농기계신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 383,
+      "media": "한국식품의약신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 384,
+      "media": "디지털농업",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 385,
+      "media": "월간새농사",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 386,
+      "media": "일반경제신문",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 387,
+      "media": "푸드아이콘",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 388,
+      "media": "월간원예",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 389,
+      "media": "월간축산",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 390,
+      "media": "월간한우",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 391,
+      "media": "월간농경과원예",
+      "aliases": [
+        "농경과원예",
+        "디지털농업"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "digitalagro.com"
+      ]
+    },
+    {
+      "row": 392,
+      "media": "월간친환경",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 393,
+      "media": "상업농경영",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 394,
+      "media": "월간버섯",
+      "aliases": [],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": []
+    },
+    {
+      "row": 395,
+      "media": "그린매거진",
+      "aliases": [
+        "청 보유매체"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "청 보유매체",
+      "domains": []
+    },
+    {
+      "row": 396,
+      "media": "농업기술",
+      "aliases": [
+        "청 보유매체"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "청 보유매체",
+      "domains": []
+    },
+    {
+      "row": 397,
+      "media": "인테러뱅",
+      "aliases": [
+        "청 보유매체"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "청 보유매체",
+      "domains": []
+    },
+    {
+      "row": 398,
+      "media": "농업기술길잡이",
+      "aliases": [
+        "청 보유매체"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "청 보유매체",
+      "domains": []
+    },
+    {
+      "row": 399,
+      "media": "팜&마켓",
+      "aliases": [
+        "팜앤마켓",
+        "팜앤마켓매거진"
+      ],
+      "category": "농업전문지",
+      "score": 1.5,
+      "note": "",
+      "domains": [
+        "farmnmarket.com"
+      ]
+    },
+    {
+      "row": 404,
+      "media": "정책브리핑(정부포털)",
+      "aliases": [
+        "대한민국 정책브리핑",
+        "정책브리핑"
+      ],
+      "category": "",
+      "score": 1.0,
+      "note": "",
+      "domains": [
+        "korea.kr"
+      ]
+    }
+  ]
+}

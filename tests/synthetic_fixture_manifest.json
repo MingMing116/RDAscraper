@@ -1,0 +1,54 @@
+{
+  "source": "fresh synthetic text; no source press release or contact records",
+  "minimal_parser_fixtures": [
+    "*.hwp",
+    "*.hwpx"
+  ],
+  "files": [
+    {
+      "path": "tests/fixtures/synthetic_breeding.hwp",
+      "bytes": 10240,
+      "sha256": "565298c11120f50c1511c20b83e49abe102d0668d29e315b1322673794c3cfb6"
+    },
+    {
+      "path": "tests/fixtures/synthetic_breeding.hwpx",
+      "bytes": 1793,
+      "sha256": "1d23937408a5ed49a414846e1d57211c7e707b8e597ae148e6b5d09b176d179c"
+    },
+    {
+      "path": "tests/fixtures/synthetic_breeding.pdf",
+      "bytes": 48805,
+      "sha256": "68b292913bd21a6180d0fdcc1bc5b391dcc286784a5fb73dc746b7dc24fe5ced"
+    },
+    {
+      "path": "tests/fixtures/synthetic_genome.hwpx",
+      "bytes": 1789,
+      "sha256": "8a35dc296b3d38df61bedf6c6b431ff7944fbe716315649ba71a67cb23e9c592"
+    },
+    {
+      "path": "tests/fixtures/synthetic_materials.hwp",
+      "bytes": 10240,
+      "sha256": "9b4bcaffa6713af7ddad11947c063c86e8c9211893c59f5df61ff4619a43e28a"
+    },
+    {
+      "path": "tests/fixtures/synthetic_materials.hwpx",
+      "bytes": 1797,
+      "sha256": "174f064fd90ead299f6394ebee9fa2ebebea52e29bb8f6ed5061fe9fef9abf7b"
+    },
+    {
+      "path": "tests/fixtures/synthetic_materials.pdf",
+      "bytes": 49813,
+      "sha256": "36efb543825bf7bcb346ef11ee67c04dc0cd715cce5974a127be8378f9c271d2"
+    },
+    {
+      "path": "tests/ocr/scanned_press.pdf",
+      "bytes": 543861,
+      "sha256": "31272a0305d8dd7d4f3af7c360b4cdd9ba4e13b878ffbbae6045828ff7c90630"
+    },
+    {
+      "path": "tests/ocr/scanned_press.png",
+      "bytes": 610204,
+      "sha256": "7594cb541424660b6a9c9e6b31c9e035de8f77aeed62fe6c4a574d9f41f465cf"
+    }
+  ]
+}

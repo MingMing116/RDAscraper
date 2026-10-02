@@ -1,0 +1,29 @@
+# Included third party assets
+
+The Windows application embeds its document parsers, OCR code, OCR models and fonts. These assets do not require a runtime CDN or a cloud analysis service. License notices remain available in `web/licenses/`, through the application's component page, and in the PDF.js asset subdirectories.
+
+| Component | Shipped version | License and source |
+| --- | --- | --- |
+| PDF.js | 6.2.108 | Apache-2.0; [Mozilla PDF.js](https://github.com/mozilla/pdf.js), [official npm package](https://www.npmjs.com/package/pdfjs-dist/v/6.2.108). The main module, worker, CMaps, standard fonts and WASM come from one verified tarball. Ancillary asset licenses are retained in their directories. |
+| JSZip | 3.10.2 | MIT OR GPL-3.0-or-later; this distribution uses the MIT option. [Upstream](https://github.com/Stuk/jszip), [official npm package](https://www.npmjs.com/package/jszip/v/3.10.2). The browser bundle contains upstream's own dependencies. |
+| pako | 3.0.2 | MIT AND Zlib; [upstream](https://github.com/nodeca/pako), [official npm package](https://www.npmjs.com/package/pako/v/3.0.2). `PAKO_LICENSE.txt` contains the package MIT notice; `PAKO_ZLIB_LICENSE.txt` preserves the Zlib notice from the published source map. This version is the standalone HWP parser dependency, not the version bundled inside JSZip. |
+| sax | 1.6.1 | BlueOak-1.0.0; [upstream](https://github.com/isaacs/sax-js), [official npm package](https://www.npmjs.com/package/sax/v/1.6.1). See `SAX_LICENSE.txt`. |
+| Tesseract.js | 7.0.0 | Apache-2.0; [upstream](https://github.com/naptha/tesseract.js), [official npm package](https://www.npmjs.com/package/tesseract.js/v/7.0.0). Browser API, worker and bundled dependency notices are retained. |
+| tesseract.js-core | 7.0.0 | Apache-2.0; [upstream](https://github.com/naptha/tesseract.js-core), [official npm package](https://www.npmjs.com/package/tesseract.js-core/v/7.0.0). The six shipped loader variants contain embedded WASM. Extracted WASM bytes match the corresponding local package binaries. |
+| Korean and English OCR models | Package 1.0.0; model 4.0.0_best_int | Apache-2.0; [Korean package](https://www.npmjs.com/package/@tesseract.js-data/kor/v/1.0.0), [English package](https://www.npmjs.com/package/@tesseract.js-data/eng/v/1.0.0), [Tesseract model license](https://github.com/tesseract-ocr/tessdata_best/blob/main/LICENSE). |
+| Pretendard SemiBold and Bold | Release 1.3.9; font metadata 1.309 | SIL OFL-1.1; [official tagged release](https://github.com/orioncactus/pretendard/releases/tag/v1.3.9), [official license](https://github.com/orioncactus/pretendard/blob/v1.3.9/LICENSE). Unmodified static TrueType files are embedded locally for the interface and generated PDFs. Exact tagged source URLs, weights and SHA256 hashes are recorded in `FONT_ASSETS.json`; see `PRETENDARD_OFL.txt`. |
+| NanumGothic Regular and Bold | Font metadata 3.020 | SIL OFL-1.1; NHN / Sandoll. [Google Fonts source and OFL](https://github.com/google/fonts/tree/main/ofl/nanumgothic). Retained for synthetic fixtures and the earlier quick guide. The Bold source URL and checksum are recorded in `OCR_ASSETS.json`; the Regular file is retained from the earlier project, so its exact original download revision is not asserted. |
+| Go runtime and standard library | Build target 1.27.1 | BSD-3-Clause; [Go source and license](https://go.dev/LICENSE). CI pins this toolchain; the source module minimum is Go 1.26.0. The final executable's build metadata is the authority for its compiled toolchain. |
+| golang.org/x/net | v0.59.0 | BSD-3-Clause; [module](https://pkg.go.dev/golang.org/x/net@v0.59.0), `GO_X_NET_LICENSE.txt`. |
+| golang.org/x/text | v0.42.0 | BSD-3-Clause; [module](https://pkg.go.dev/golang.org/x/text@v0.42.0), `GO_X_TEXT_LICENSE.txt`. |
+
+`PDFJS_ASSETS.json` and `DOCUMENT_ASSETS.json` record official npm archive integrity values and exact shipped asset hashes. `SBOM.json` inventories runtime components and asset hashes in CycloneDX 1.6 JSON. `OCR_ASSETS.json` records the earlier OCR acquisition evidence. `FONT_ASSETS.json` records the official tagged Pretendard source files and their license, metadata and checksums. The SBOM distinguishes a directly verified package, local package comparison, font metadata, and inherited assets; it does not claim a complete inventory of every native library compiled into upstream WASM or every nested browser-bundle dependency.
+
+The newspaper-reading Isaki image and the 398-entry media classification/score dataset were retained from the existing user-provided project. Their hashes and provenance limits are recorded in the SBOM. They are not relicensed by these third party notices. Original contact-bearing document fixtures and their previews are not included; development fixtures are newly generated synthetic documents.
+
+Windows icon and manifest resources use go-winres v0.3.3 during development. It is a build tool, not a runtime service. Node/Python test and fixture-generation packages are development dependencies and are outside this runtime SBOM.
+
+
+Noto Sans KR Bold — SIL Open Font License 1.1. Official Google Fonts Noto Sans KR v2.004-H2, pinned commit 4efc2774c63917927efe769ca845def6bd6debae. The variable font was instantiated at weight 700 using fontTools 4.61.1 without glyph subsetting. Local screen and PDF font; no remote font request at runtime. License: web/licenses/NOTOSANSKR_OFL.txt; provenance and checksums: docs/NEW_FONT_ASSETS.json.
+
+Release 65.3.0 exports review-list PDFs with the application’s local PDF writer. The original-page printing path, pdf-lib browser bundle and its bundled merge dependencies are no longer shipped. Installed Edge or Chrome is used to display the local application interface; no separate PDF printing browser is launched.

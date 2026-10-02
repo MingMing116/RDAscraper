@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-02",
+  "appVersion": "65.3.1",
+  "reviewedSourceTextFiles": 204,
+  "sourceScanConclusion": {
+    "confirmed_credentials": 0,
+    "confirmed_institution_private_network_endpoints": 0,
+    "confirmed_employee_name_department_duty_phone_records": 0,
+    "confirmed_private_account_paths": 0
+  },
+  "originalWorkbookLabelRemoved": true,
+  "mediaRecords": 398,
+  "allMediaEntriesUnchanged": true,
+  "exeEmbeddedFiles": 251,
+  "allEmbeddedAssetsMatchSource": true,
+  "gitHistoryAvailable": false,
+  "gitHistoryScanned": false,
+  "remoteRepositoryInspected": false,
+  "scope": "Static local source, distributed fixtures and rebuilt Windows executable. Recognizable pattern matches reviewed in context; not a guarantee of absence of unknown secrets or an institution publication authorization.",
+  "fixtures": "Seven synthetic document inputs and two synthetic OCR inputs retained without changing their bytes from the inspected source release.",
+  "guide": "Updated one-page guide matches current review-list PDF / XLSX / CSV features; no Page 1 label.",
+  "publicValidationArtifacts": "Only current generic test/build/audit summaries are included. Historical reports, user-supplied document fingerprints and metadata, demo evidence, and private inspection artifacts are excluded."
+}

@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import {validDay,plusDays,parseDate,canonicalURL,analyzeText,assess,dedupe,mediaMatch,toCSV,safeURL,titleSimilarity} from '../web/core.mjs';
+let passed=0;function test(name,fn){fn();passed++;console.log('PASS '+name);}
+test('윤년·잘못된 날짜 검증',()=>{assert.equal(validDay('2026-02-29'),false);assert.equal(validDay('2024-02-29'),true);assert.equal(validDay('2026-13-01'),false);});
+test('기간 계산의 연도·월 경계',()=>{assert.equal(plusDays('2026-12-25',14),'2027-01-08');assert.equal(plusDays('2026-06-09',7),'2026-06-16');});
+test('날짜 추출은 불명확한 월일을 확정하지 않음',()=>{assert.equal(parseDate('6. 9.(화)'),'');assert.equal(parseDate('2026. 6. 9. 10:00'),'2026-06-09');assert.equal(parseDate('2026-02-30'),'');});
+test('기사 식별 쿼리 보존',()=>{assert.notEqual(canonicalURL('https://example.com/view?id=1'),canonicalURL('https://example.com/view?id=2'));});
+test('추적값·모바일 네이버 중복 통합',()=>{assert.equal(canonicalURL('https://n.news.naver.com/mnews/article/001/12345?utm_source=test'),canonicalURL('https://news.naver.com/main/read.naver?oid=001&aid=12345'));});
+test('비 HTTP 링크 제외',()=>{assert.equal(safeURL('javascript:alert(1)'), '');assert.equal(safeURL('file:///etc/passwd'),'');assert.equal(safeURL('https://user:pass@example.com'),'');});
+test('없는 canonical 주소를 임의 상대경로로 만들지 않음',()=>{assert.equal(safeURL(undefined,'https://example.com/news/1'),'');assert.equal(safeURL(null,'https://example.com/news/1'),'');assert.equal(safeURL('','https://example.com/news/1'),'');});
+const press=analyzeText('국산 콩 디지털육종 기술 개발\n농촌진흥청 국립농업과학원은 국산 콩의 유전체 분석과 디지털육종 연구를 진행한다.');
+test('제목에 본문을 잘못 연결하지 않음',()=>{assert.equal(press.title,'국산 콩 디지털육종 기술 개발');assert.ok(press.keywords.includes('콩'));});
+test('짧은 수동 핵심어 입력',()=>{assert.ok(analyzeText('과수화상병 긴급 방제').queries.length>0);});
+const related={title:'국산 콩 디지털육종 기술 개발',url:'https://example.com/news?id=1',media:'예시신문',snippet:'농촌진흥청 국립농업과학원, 콩 유전체 분석과 디지털육종 연구',date:'2026-06-16',dateSource:'원문 게시일',checked:true};
+test('기간 양 끝 날짜 포함',()=>{assert.equal(assess(related,press,'2026-06-09','2026-06-16').eligible,true);assert.equal(assess({...related,date:'2026-06-09'},press,'2026-06-09','2026-06-16').eligible,true);});
+test('기간 밖·날짜 미확인 기본 선택 금지',()=>{assert.equal(assess({...related,date:'2026-06-17'},press,'2026-06-09','2026-06-16').included,false);assert.equal(assess({...related,date:''},press,'2026-06-09','2026-06-16').included,false);});
+test('검색어 기관명만으로 근거를 만들지 않음',()=>{const a=assess({...related,snippet:'콩 유전체 분석',query:'농촌진흥청 콩'},press,'2026-06-09','2026-06-16');assert.equal(a.eligible,false);assert.equal(a.institution,'');});
+test('원문 제목 불일치 기본 선택 금지',()=>{assert.equal(assess({...related,linkMismatch:true},press,'2026-06-09','2026-06-16').eligible,false);});
+test('원문 미확인 기본 선택 금지',()=>{assert.equal(assess({...related,checked:false},press,'2026-06-09','2026-06-16').included,false);});
+test('기관 원본은 언론 성과로 자동 포함하지 않음',()=>{assert.equal(assess({...related,url:'https://www.rda.go.kr/news?id=1'},press,'2026-06-09','2026-06-16').eligible,false);});
+test('공통 기관명뿐인 무관 기사 낮은 점수',()=>{const other=assess({...related,title:'농촌진흥청 인사 발표',snippet:'농촌진흥청 인사 소식'},press,'2026-06-09','2026-06-16');assert.ok(other.match<20);assert.equal(other.eligible,false);});
+test('다른 매체 같은 제목을 합치지 않음',()=>{assert.equal(dedupe([related,{...related,url:'https://different.example/news',media:'다른신문'}]).length,2);});
+test('같은 URL의 근거 병합',()=>{assert.equal(dedupe([related,{...related,url:related.url+'&utm_source=x'}]).length,1);});
+test('같은 매체·제목도 날짜 다르면 유지',()=>{assert.equal(dedupe([related,{...related,url:'https://example.com/news?id=2',date:'2026-06-15'}]).length,2);});
+test('미등록 매체 점수 임의 부여 금지',()=>{assert.equal(mediaMatch('가나다','https://example.com',{}).mediaScore,null);});
+test('CSV 수식 문자 방지·한글 BOM',()=>{let csv=toCSV([['=HYPERLINK("test")','한글']]);assert.ok(csv.startsWith('\ufeff'));assert.ok(csv.includes("'=HYPERLINK"));});
+test('제목 동일성은 문장부호에 독립',()=>{assert.equal(titleSimilarity('“간단·정확” 정보센터','간단 정확 정보센터'),1);});
+console.log(`TOTAL ${passed} PASS`);

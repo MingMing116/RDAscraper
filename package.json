@@ -1,0 +1,22 @@
+{
+  "name": "rdascraper-development-tests",
+  "version": "65.3.1",
+  "private": true,
+  "description": "Node is only for development tests; the Windows application needs no Node installation.",
+  "scripts": {
+    "test": "node tests/core_test.mjs && node tests/news_test.mjs && node tests/ui_test.mjs && node tests/restart_test.mjs && node tests/document_test.mjs",
+    "test:ocr": "node tests/ocr_test.mjs",
+    "test:security": "node tests/project_security_test.mjs && node tests/project_dom_security_test.mjs && node tests/pdf_security_test.mjs",
+    "test:browser": "node tests/browser_test.mjs",
+    "test:live": "node tests/live_browser_test.mjs",
+    "test:appearance": "node tests/appearance_test.mjs",
+    "test:exports": "node tests/spreadsheet_export_test.mjs && node tests/article_body_regression_test.mjs && node tests/article_export_test.mjs && node tests/pdf_output_regression_test.mjs",
+    "test:news-controls": "node tests/news_control_regression_test.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "jsdom": "26.1.0",
+    "playwright": "1.63.0",
+    "tesseract.js": "7.0.0"
+  }
+}

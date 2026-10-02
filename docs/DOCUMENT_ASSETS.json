@@ -1,0 +1,82 @@
+{
+  "verifiedAt": "2026-09-17",
+  "notes": [
+    "Published npm package tarballs fetched over HTTPS and verified against the registry SHA512 integrity before copying.",
+    "Browser bundles copied without source modification. Original third party author/license notices retained.",
+    "JSZip includes its own upstream bundled dependencies; the standalone pako version applies to direct HWP processing only."
+  ],
+  "packages": [
+    {
+      "package": "pako",
+      "version": "3.0.2",
+      "license": "(MIT AND Zlib)",
+      "tarball": "https://registry.npmjs.org/pako/-/pako-3.0.2.tgz",
+      "tarballIntegrity": "sha512-uBv6IT2aT1A78iU6dpNEbf6+CyhlV/6g9JlJs9kpgjFGFhruIICVRysF/W0SLzXg5+hCl+KroH7e4YUyfEmgLg==",
+      "tarballSHA256": "719368da5207e3c181887351e71be836e4c61e52fad0eeeed7fe7441af34480e",
+      "files": [
+        {
+          "source": "dist/browser/pako.umd.min.js",
+          "path": "web/vendor/pako.min.js",
+          "bytes": 45440,
+          "sha256": "7692e029120a7b93a50e58029ec077688b711909ccfe72f43e6b1fe2ad4da4f7"
+        },
+        {
+          "source": "LICENSE",
+          "path": "web/licenses/PAKO_LICENSE.txt",
+          "bytes": 1104,
+          "sha256": "a04665b3b2de56c66730c1f720f528175739e4104f79073614aa611da1e85539"
+        },
+        {
+          "source": "dist/pako.mjs.map#../src/zlib/trees.mjs license header",
+          "path": "web/licenses/PAKO_ZLIB_LICENSE.txt",
+          "bytes": 960,
+          "sha256": "170d7d544d380b38d5f76ab5eda29475b44ef537f4564163d6d9bece85c51c13"
+        }
+      ]
+    },
+    {
+      "package": "sax",
+      "version": "1.6.1",
+      "license": "BlueOak-1.0.0",
+      "tarball": "https://registry.npmjs.org/sax/-/sax-1.6.1.tgz",
+      "tarballIntegrity": "sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==",
+      "tarballSHA256": "6e9abf03478608b80894bb8b6421271a0e583504f785f749a700d6bb35be85bd",
+      "files": [
+        {
+          "source": "lib/sax.js",
+          "path": "web/vendor/sax.js",
+          "bytes": 50818,
+          "sha256": "1cdc1270d987cb0f6ee66dd8efb01c50511aa14d17b6163bbbffb21df8cf1c06"
+        },
+        {
+          "source": "LICENSE.md",
+          "path": "web/licenses/SAX_LICENSE.txt",
+          "bytes": 1552,
+          "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+        }
+      ]
+    },
+    {
+      "package": "jszip",
+      "version": "3.10.2",
+      "license": "(MIT OR GPL-3.0-or-later)",
+      "tarball": "https://registry.npmjs.org/jszip/-/jszip-3.10.2.tgz",
+      "tarballIntegrity": "sha512-3l+rb15IOWtUhU0H5MFqES/T6Kh7abYwjosBey/vD6hDt8zoEffkSC5Ws5SGtgVw3gBx2NEbhTeSW1+kWkpyTQ==",
+      "tarballSHA256": "4ee15dcb3f5433b736a41d091bcad37facee4a4aa96f9e21194789da886ac226",
+      "files": [
+        {
+          "source": "dist/jszip.min.js",
+          "path": "web/vendor/jszip.min.js",
+          "bytes": 97781,
+          "sha256": "7f839b2d4688b845c105ebf5d2f9803075f91ea0fe72bdaac176c3a04dd3d2c1"
+        },
+        {
+          "source": "LICENSE.markdown",
+          "path": "web/licenses/JSZIP_LICENSE.markdown.txt",
+          "bytes": 33753,
+          "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4"
+        }
+      ]
+    }
+  ]
+}

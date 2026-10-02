@@ -2,7 +2,7 @@
 
 **보도자료 입력 → 뉴스 검색 → 기사 검수 → 엑셀·CSV·PDF 저장.** 설치 없이 `RDAscraper.exe`로 실행하는 Windows 64비트 프로그램입니다. 화면은 PC의 브라우저에서 열리고 문서 분석과 한국어·영어 OCR은 PC에서 처리합니다.
 
-**[Windows 실행용 ZIP 다운로드](https://github.com/MingMing116/RDAscraper/raw/refs/heads/main/downloads/RDAscraper_65.3.1_Windows_x64.zip)** · [SHA-256](downloads/SHA256SUMS.txt)
+**[Windows 실행용 ZIP 다운로드](https://github.com/MingMing116/RDAscraper/releases/latest/download/RDAscraper_Windows_x64.zip)** · [SHA-256](https://github.com/MingMing116/RDAscraper/releases/latest/download/SHA256SUMS.txt)
 
 [사용 안내](README_KO.md) · [검수 목록 PDF](docs/REVIEW_PDF_KO.md) · [글자 크기·업데이트](docs/APPEARANCE_KO.md) · [보관 정보](PRIVACY.md) · [보안 정책](SECURITY.md) · [검증 기록](docs/VALIDATION_KO.md) · [변경 기록](CHANGELOG.md) · [GitHub 공개 절차](docs/PUBLISH_KO.md) · [기존 실행 오류 해결](docs/STARTUP_FIX_KO.md)
 
@@ -35,7 +35,7 @@ GitHub는 프로그램을 받는 곳입니다. **GitHub 페이지 안에서 EXE�
 
 결과는 **엑셀 XLSX · 한글 CSV · 검수 목록 PDF**로 저장합니다. PDF는 선택한 기사 정보를 기존 기사 번호의 오름차순으로 정리하며, 원문 전체는 기사 링크에서 확인합니다. 별도의 기사 원문·추출 본문 PDF는 제공하지 않습니다. [검수 목록 PDF 사용 안내](docs/REVIEW_PDF_KO.md)
 
-이번 배포에서 실제로 수행한 검사와 Windows 실기기 등 미확인 범위는 [검증 기록](docs/VALIDATION_KO.md)에 구분합니다. ZIP에는 과거 Git 이력이 들어 있지 않으며, 기존 원격 저장소의 과거 커밋까지 삭제·정리했다는 뜻은 아닙니다.
+이번 배포에서 실제로 수행한 검사와 Windows 실기기 등 미확인 범위는 [검증 기록](docs/VALIDATION_KO.md)에 구분합니다. 공개 검증 자료에는 현재 시험·빌드·점검 범위의 요약을 포함하며, 과거 내부 검증·영상 제작 기록은 제외합니다. ZIP에는 과거 Git 이력이 들어 있지 않으며, 기존 원격 저장소의 과거 커밋까지 삭제·정리했다는 뜻은 아닙니다.
 
 ## 개발과 빌드
 
@@ -99,7 +99,7 @@ go build -buildvcs=false -trimpath -ldflags '-s -w -H=windowsgui' -o dist/RDAscr
 | Linux | Go 모듈 검증·시험·vet, `npm ci`, 핵심 로직·뉴스·화면·재시작·문서·보안·OCR 시험, 실제 Chromium 통합 시험 |
 | Windows | Go 모듈 검증·시험·vet, Windows x64 EXE 빌드와 실제 Chromium 통합 시험, 실행용 ZIP과 SHA-256 |
 
-Windows 산출물은 Linux 검사도 통과한 실행에서만 업로드합니다. `release.yml`은 **수동 실행**으로 같은 검사를 수행합니다. 두 workflow 모두 GitHub Release를 게시하거나 웹사이트를 배포하지 않습니다. 권한은 저장소 읽기로 제한하고 외부 Actions는 확인한 커밋 SHA에 고정했습니다. npm·Go·Actions 변경은 Dependabot이 주기적으로 제안합니다. [GitHub Actions 보안 지침](https://docs.github.com/en/actions/reference/security/secure-use)
+Windows 산출물은 Linux 검사도 통과한 실행에서만 업로드합니다. `release.yml`은 **수동 실행**으로 같은 검사를 수행합니다. 일반 검사와 수동 후보 빌드는 읽기 권한으로 실행합니다. main에 `[publish-release]`가 포함된 커밋을 푸시하면 Linux·Windows 검사를 모두 통과한 뒤 해당 실행의 Windows ZIP과 SHA-256만 GitHub Release에 게시합니다. 이 게시 작업에만 `contents: write`와 `actions: read` 권한을 부여합니다. 기존 Release는 덮어쓰지 않습니다. 웹사이트는 배포하지 않습니다. 다른 검사 작업은 저장소 읽기로 제한하고 외부 Actions는 확인한 커밋 SHA에 고정했습니다. npm·Go·Actions 변경은 Dependabot이 주기적으로 제안합니다. [GitHub Actions 보안 지침](https://docs.github.com/en/actions/reference/security/secure-use)
 
 이 workflow는 실행 가능한 설정으로 준비했으며 이 패키지를 만드는 과정에서 원격 GitHub Actions를 실행한 것은 아닙니다. 자동 시험 통과와 사용자 PC의 실제 실행 확인은 구분합니다. 로컬에서 수행한 시험, 보안 회귀시험 범위와 Windows 실기기 확인 여부는 [검증 기록](docs/VALIDATION_KO.md)에 있습니다.
 
@@ -113,10 +113,10 @@ Windows 산출물은 Linux 검사도 통과한 실행에서만 업로드합니�
 4. **Releases → Draft a new release**에서 태그와 변경 내용을 정하고 검증된 실행용 ZIP과 SHA-256, 배포 안내와 제3자 라이선스 자료를 첨부합니다.
 5. 첨부 파일과 설명을 확인한 뒤 공개합니다. 실행용 파일은 Release 자산으로 배포하고 자동 생성되는 ‘Source code’ ZIP과 구분합니다.
 
-공식 배포 저장소는 [MingMing116/RDAscraper](https://github.com/MingMing116/RDAscraper)입니다. 이 저장소의 `downloads/` 폴더에서 Windows 실행용 ZIP과 해시를 제공합니다. 별도 프로젝트 전체 라이선스는 아직 선택하지 않았으며 제3자 코드·글꼴·모델은 각 라이선스를 유지합니다. [구성요소와 라이선스](docs/THIRD_PARTY.md)
+공식 배포 저장소는 [MingMing116/RDAscraper](https://github.com/MingMing116/RDAscraper)입니다. 이 저장소의 Releases에서 Windows 실행용 ZIP과 해시를 제공합니다. 최초 게시 시에는 자동 검사와 Windows 빌드가 끝난 후 다운로드 파일이 표시됩니다. 별도 프로젝트 전체 라이선스는 아직 선택하지 않았으며 제3자 코드·글꼴·모델은 각 라이선스를 유지합니다. [구성요소와 라이선스](docs/THIRD_PARTY.md)
 
 ## 데이터와 제한
 
-398개 매체 분류·점수 기준표는 프로그램과 소스에 포함됩니다. 담당자 정보가 있던 시험 문서는 합성 자료로 교체했습니다. 사용자가 첨부한 실제 기사 PDF·검수 목록 PDF·CSV·XLSX와 작업 파일은 공개 소스에 포함하지 않습니다. 자동 시험용 HWP/HWPX 일부는 추출기 확인을 위한 최소 구조이므로 모든 한글 문서 편집 기능을 검증하는 자료는 아닙니다.
+398개 매체 분류·점수 기준표는 프로그램과 소스에 포함됩니다. 담당자 정보가 있던 시험 문서는 합성 자료로 교체했습니다. 사용자가 첨부한 실제 기사 PDF·검수 목록 PDF·CSV·XLSX와 작업 파일, 해당 입력 자료의 해시·크기·추출 결과 기록은 공개 소스에 포함하지 않습니다. 자동 시험용 HWP/HWPX 일부는 추출기 확인을 위한 최소 구조이므로 모든 한글 문서 편집 기능을 검증하는 자료는 아닙니다.
 
 검색 제공 범위·사이트 접근 제한에 따라 기사 누락과 본문 수집 실패가 있을 수 있습니다. 프로그램은 접근 제한을 해제하지 않습니다. 실행파일은 코드 서명되지 않았습니다. 사용 한계는 [사용 안내](README_KO.md)를 참고하세요.

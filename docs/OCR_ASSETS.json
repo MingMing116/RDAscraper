@@ -1,0 +1,36 @@
+[
+  {
+    "asset": "assets/NanumGothic-Bold.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/nanumgothic/NanumGothic-Bold.ttf",
+    "sourceBytes": 2073868,
+    "sha256": "f96298f9fb18e364d2370f4c3ce948ac67a2b61af992d7234bc15c42b033c674"
+  },
+  {
+    "asset": "licenses/TESSDATA_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main/LICENSE",
+    "sourceBytes": 10173,
+    "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+  },
+  {
+    "asset": "vendor/ocr/lang/kor.traineddata.gz",
+    "source": "https://www.npmjs.com/package/@tesseract.js-data/kor/v/1.0.0",
+    "packageVersion": "1.0.0",
+    "model": "4.0.0_best_int",
+    "bytes": 1572336,
+    "sha256": "78c21276ab14c9bb734d83be1055d9fe5469a4e7e977c51ad385be5737e61126"
+  },
+  {
+    "asset": "vendor/ocr/lang/eng.traineddata.gz",
+    "source": "https://www.npmjs.com/package/@tesseract.js-data/eng/v/1.0.0",
+    "packageVersion": "1.0.0",
+    "model": "4.0.0_best_int",
+    "bytes": 2952873,
+    "sha256": "45b4cb346724ac1774f1c36f42f182b887bcdb28ebe63e6fff90ac41f3fcff91"
+  },
+  {
+    "asset": "vendor/ocr/core/*.wasm.js",
+    "source": "https://www.npmjs.com/package/tesseract.js-core",
+    "version": "7.0.0",
+    "embeddedWasmMatchesNativeNodeCore": true
+  }
+]

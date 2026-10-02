@@ -1,0 +1,98 @@
+{
+  "family": "Noto Sans KR",
+  "weight": 700,
+  "style": "Bold",
+  "license": "OFL-1.1",
+  "upstreamCommit": {
+    "sha": "4efc2774c63917927efe769ca845def6bd6debae",
+    "url": "https://github.com/google/fonts/commit/4efc2774c63917927efe769ca845def6bd6debae",
+    "date": "2022-12-09T13:28:18Z"
+  },
+  "upstreamAssets": [
+    {
+      "name": "NotoSansKR[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/4efc2774c63917927efe769ca845def6bd6debae/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    {
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/4efc2774c63917927efe769ca845def6bd6debae/ofl/notosanskr/OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "name": "METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/4efc2774c63917927efe769ca845def6bd6debae/ofl/notosanskr/METADATA.pb",
+      "bytes": 621,
+      "sha256": "fa26b3750e10460470068c1c9b23d6f01f794aae57e6b2d1f5cdf754061a4a1f"
+    }
+  ],
+  "transformation": {
+    "tool": "fontTools.varLib.instancer",
+    "version": "4.61.1",
+    "axes": {
+      "wght": 700
+    },
+    "updateFontNames": true,
+    "static": true,
+    "recalcTimestamp": false,
+    "glyphSubsetting": false,
+    "description": "Official Google Fonts variable TrueType font instantiated at weight 700 for the embedded PDF writer; outlines and glyph coverage are preserved at that weight."
+  },
+  "files": [
+    {
+      "path": "web/assets/NotoSansKR-Bold.ttf",
+      "bytes": 6222712,
+      "sha256": "cf93c6acfa4c4adcb580d156aa46fc3614ed0310f1e2ef23b5954476e85c872e"
+    },
+    {
+      "path": "web/licenses/NOTOSANSKR_OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    }
+  ],
+  "validation": {
+    "outline": "TrueType glyf/loca",
+    "static": true,
+    "unicodeCmap4": true,
+    "hangulSyllables": 11172,
+    "allHangulSyllablesPresent": true,
+    "asciiPrintable": 95,
+    "unitsPerEm": 1000,
+    "glyphCount": 24964,
+    "embeddingFsType": 0,
+    "postScriptName": "NotoSansKR-Bold",
+    "fontVersion": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "hheaAscent": 1160,
+    "hheaDescent": -288,
+    "nameRecords": {
+      "0": "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+      "1": "Noto Sans KR",
+      "2": "Bold",
+      "3": "2.004;ADBO;NotoSansKR-Bold;ADOBE",
+      "4": "Noto Sans KR Bold",
+      "5": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "6": "NotoSansKR-Bold",
+      "7": "Source is a trademark of Adobe in the United States and/or other countries.",
+      "8": "Adobe",
+      "9": "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)",
+      "10": "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI 服部正貴 (production & ideograph elements)",
+      "11": "http://www.adobe.com/type/",
+      "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "14": "http://scripts.sil.org/OFL",
+      "25": "NotoSansKR",
+      "257": "Weight",
+      "272": "Bold"
+    },
+    "applicationPdfWriter": {
+      "status": "PASS",
+      "writer": "KoreanPDF",
+      "testedGlyphs": 11267,
+      "hangulSyllables": 11172,
+      "asciiPrintable": 95,
+      "allGlyphIdsMatchFontTools": true,
+      "allAdvancesPositive": true
+    }
+  }
+}

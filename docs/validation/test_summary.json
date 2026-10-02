@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-02",
+  "appVersion": "65.3.1",
+  "platform": "linux/amd64",
+  "go": "1.27.1",
+  "node": "24.19.0",
+  "goTests": "PASS",
+  "goVet": "PASS",
+  "nodeChecks": [
+    {
+      "name": "npm-test",
+      "exitCode": 0,
+      "seconds": 5.76
+    },
+    {
+      "name": "security",
+      "exitCode": 0,
+      "seconds": 6.6
+    },
+    {
+      "name": "exports",
+      "exitCode": 0,
+      "seconds": 2.75
+    },
+    {
+      "name": "news-controls",
+      "exitCode": 0,
+      "seconds": 0.57
+    },
+    {
+      "name": "ocr",
+      "exitCode": 0,
+      "seconds": 21.19
+    }
+  ],
+  "uiCases": 26,
+  "syntheticDocumentFiles": 7,
+  "formatComparisons": 2,
+  "projectSecurityGroups": 5,
+  "projectDOMSecurityCases": 7,
+  "articleBodyCases": 29,
+  "sourceControlCases": 11,
+  "browserIntegration": "BLOCKED_BEFORE_TEST: Chrome socket creation denied by build environment (Operation not permitted)",
+  "browserVersionAttempted": "153.0.8010.12",
+  "liveNewsSearch": "NOT VERIFIED: browser failed to start before live search",
+  "nativeWindowsExecuted": false,
+  "windowsCrossBuild": "PASS",
+  "pdfNote": "The low-level PDF writer regression includes historical text-body cases; the UI offers only review-list PDF.",
+  "warning": "PDF.js Node harness logged standard-font file loader warnings; extraction, OCR and PDF rendering assertions passed.",
+  "remoteGitHubActionsExecuted": false,
+  "packagePowerShellExecuted": false,
+  "syntheticOCRFiles": 2
+}

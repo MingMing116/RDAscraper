@@ -1,0 +1,115 @@
+name: Verify and build
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  linux-tests:
+    name: Linux regression tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: '1.27.1'
+          cache: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify Go dependencies
+        run: |
+          go mod download
+          go mod verify
+      - name: Test local engine and outbound request boundaries
+        run: go test -buildvcs=false -count=1 -v ./...
+      - name: Go static checks
+        run: go vet ./...
+      - name: Install locked development dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Core news UI restart and document regression tests
+        run: npm test
+      - name: Spreadsheet article body and PDF export regression tests
+        run: npm run test:exports
+      - name: Untrusted project and security regression tests
+        run: npm run test:security
+      - name: Offline Korean image and scanned PDF OCR tests
+        run: npm run test:ocr
+      - name: Build local engine for real browser integration
+        run: go build -buildvcs=false -o /tmp/rdascraper-test .
+      - name: Install test Chromium and browser system dependencies
+        run: npx playwright install --with-deps chromium
+      - name: Verify article control cleanup
+        run: npm run test:news-controls
+      - name: Test application in real Chromium
+        env:
+          RDA_TEST_BINARY: /tmp/rdascraper-test
+        run: npm run test:browser
+
+  windows-build:
+    name: Windows tests and standalone build
+    needs: linux-tests
+    runs-on: windows-2025
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: '1.27.1'
+          cache: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Verify Go dependencies
+        run: |
+          go mod download
+          if ($LASTEXITCODE -ne 0) { throw 'Go dependency download failed' }
+          go mod verify
+          if ($LASTEXITCODE -ne 0) { throw 'Go dependency verification failed' }
+      - name: Test Windows local engine and request boundaries
+        run: go test -buildvcs=false -count=1 -v ./...
+      - name: Go static checks
+        run: go vet ./...
+      - name: Build Windows x64 standalone executable
+        run: ./build_windows.ps1
+      - name: Install locked development dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Install test Chromium
+        run: npx playwright install chromium
+      - name: Test standalone executable with real Chromium
+        run: |
+          $env:RDA_TEST_BINARY = (Resolve-Path 'dist/RDAscraper.exe').Path
+          npm run test:browser
+      - name: Package executable, guide, licenses and hashes
+        run: ./package_windows.ps1
+      - name: Upload verified Windows build files
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: RDAscraper-Windows-x64
+          path: |
+            dist/RDAscraper_Windows_x64.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+

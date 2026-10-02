@@ -1,0 +1,30 @@
+# Generated application data and local machine state.
+last-project.json
+address.txt
+privacy-settings.json
+preferences.json
+*.log
+*.log.*
+.env
+.env.*
+RDA_작업_*.json
+RDA_선택기사_*.csv
+RDA_선택기사_*.xlsx
+RDA_기사본문_*.pdf
+RDA_검수목록_*.pdf
+
+# Build products and test outputs. Commit dependency lock files.
+node_modules/
+dist/
+coverage/
+tests/artifacts/
+tests/ocr/*.result.json
+*.test
+*.test.exe
+*.prof
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

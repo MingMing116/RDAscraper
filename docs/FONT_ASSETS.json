@@ -1,0 +1,39 @@
+{
+  "family": "Pretendard",
+  "release": "1.3.9",
+  "release_url": "https://github.com/orioncactus/pretendard/releases/tag/v1.3.9",
+  "license": "OFL-1.1",
+  "distribution": "Unmodified official static TTF files, bundled locally. No CDN or remote font requests at runtime.",
+  "assets": [
+    {
+      "path": "web/assets/Pretendard-SemiBold.ttf",
+      "source_url": "https://raw.githubusercontent.com/orioncactus/pretendard/v1.3.9/packages/pretendard/dist/public/static/alternative/Pretendard-SemiBold.ttf",
+      "bytes": 2671468,
+      "sha256": "5e1c548732af70873103066c16e1369b9a8a871f0b38c321a1d5bc73e43cea2d",
+      "font_family": "Pretendard SemiBold",
+      "font_subfamily": "Regular",
+      "font_version": "Version 1.309",
+      "weight_class": 600,
+      "glyph_count": 14716,
+      "hangul_syllables": 11172
+    },
+    {
+      "path": "web/assets/Pretendard-Bold.ttf",
+      "source_url": "https://raw.githubusercontent.com/orioncactus/pretendard/v1.3.9/packages/pretendard/dist/public/static/alternative/Pretendard-Bold.ttf",
+      "bytes": 2661752,
+      "sha256": "c16b88c670d23e83fa1170c954cbc4822d3b8dad3c3cde15d798a94b43d97985",
+      "font_family": "Pretendard",
+      "font_subfamily": "Bold",
+      "font_version": "Version 1.309",
+      "weight_class": 700,
+      "glyph_count": 14716,
+      "hangul_syllables": 11172
+    },
+    {
+      "path": "web/licenses/PRETENDARD_OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/orioncactus/pretendard/v1.3.9/LICENSE",
+      "bytes": 4418,
+      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+    }
+  ]
+}
